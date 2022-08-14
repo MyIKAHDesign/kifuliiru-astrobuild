@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded border border-transparent font-medium leading-snug transition py-3 px-6 shadow-lg;
+  }
+}
