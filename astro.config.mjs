@@ -8,7 +8,7 @@ import vercel from "@astrojs/vercel/serverless";
 // https://astro.build/config
 export default defineConfig({
   // Astro uses this full URL to generate your sitemap and canonical URLs in your final build
-  site: "https://kifuliiru.vercel.app/",
+  site: "https://astrobuild.vercel.app/",
   integrations: [tailwind({
     config: {
       applyBaseStyles: false
